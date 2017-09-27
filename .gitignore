@@ -23,6 +23,7 @@ logs/
 results/
 databases/
 templates/
+rrds/
 
 
 lib
