@@ -1,6 +1,24 @@
 # PYTOMO: A YouTube Crawler
 Pytomo is a YouTube crawler designed to figure out network information out of
 YouTube video download.
+
+Running an experiment
+---------------------
+First, add the links that are to be tested in the file `links.txt`, one link
+per line. Then, run the crawler:
+
+```
+$ python2 start_crawl.py -f links.txt
+```
+
+Then, check the files in `results` and `databases` directories. To check the
+databases, use:
+
+```
+$ sqlite <database-file>
+sqlite> select * from <table-name>;
+```
+
 Video crawl
 -----------
  ```
