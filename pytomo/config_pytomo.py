@@ -138,7 +138,7 @@ DNS_TIMEOUT = 4.0
 EXTRA_NAME_SERVERS = [GOOGLE_PUBLIC_DNS, OPEN_DNS]
 #EXTRA_NAME_SERVERS = []
 # also download video from IPs resolved by other DNS servers
-DOWNLOAD_FROM_EXTRA_IPS = False
+DOWNLOAD_FROM_EXTRA_IPS = True
 
 # just for sharing the servers between the modules
 EXTRA_NAME_SERVERS_CC = []
